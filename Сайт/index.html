@@ -1,0 +1,1008 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+   <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lash Luxe</title>
+    <!-- Сначала Swiper -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+<!-- <link rel="stylesheet" href="assets/fontawesome/css/all.min.css"> -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+  if (typeof Swiper === 'undefined') {
+    var script = document.createElement('script');
+    script.src = '/local/path/swiper-bundle.min.js';
+    document.head.appendChild(script);
+  }
+</script>
+
+<!-- Потом твой CSS, чтобы он ПЕРЕЗАПИСАЛ стили Swiper -->
+<link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+   
+      <header class="site-header">
+  <div class="container header-container">
+    <a href="index.html" class="logo">
+      <img src="assets/Frame 11.png" alt="Lash Luxe Logo">
+    </a>
+<nav class="nav">
+  <!-- Бургер для мобильной версии -->
+  <div class="mobile-menu-toggle">
+    <button class="icon-button" onclick="toggleMenu()">☰</button>
+  </div>
+
+  <!-- Мобильное меню -->
+  <div id="mobile-menu" class="mobile-menu hidden">
+    <ul class="mobile-menu-list">
+      <li><a href="index.html">Главная</a></li>
+      <li><a href="">О себе</a></li>
+      <li><a href="#gallery">Портфолио</a></li>
+      <li><a href="#service">Услуги</a></li>
+      <li><a href="#courses">Курсы</a></li>
+      <li><a href="#otziv">Отзывы</a></li>
+      <li><a href="#contact">Контакты</a></li>
+    </ul>
+  </div>
+
+  <!-- Десктоп-меню -->
+  <ul class="desktop-menu">
+    <li><a href="index.html" class="active">Главная</a></li>
+    <li><a href="#about">О себе</a></li>
+    <li><a href="#gallery">Портфолио</a></li>
+    <li><a href="#service">Услуги</a></li>
+    <li><a href="#courses">Курсы</a></li>
+    <li><a href="#otziv">Отзывы</a></li>
+    <li><a href="#contact">Контакты</a></li>
+  </ul>
+</nav>
+    </header>
+  <section class="hero">
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <h1>LASH LUXE</h1>
+    <p class="subheading">Наращивание ресниц</p>
+<div style="height: 250px;">
+<p class="subheadingg">Красота начинается со взгляда.
+Наращивание и обучение, чтобы ты чувствовала себя уверенно и легко</p></div>
+   <div class="hero-buttons">
+  <a href="#service" class="hero-btn">Записаться на ресницы ↓</a>
+  <a href="#courses" class="hero-btn-outline">
+    Пройти курс <span class="arrow-down">↓</span>
+  </a>
+</div>
+   <div class="siicons">
+              <a href="https://t.me/lashmaster3"><i class="fab fa-telega"></i></a>
+              <a href="https://vk.com/id749276177"><i class="fab fa-vkk"></i></a>
+              <a href="https://www.instagram.com/lash_sofiya_obninsk?igsh=MTlya2R5Y2p3c3JzdQ=="><i class="fab fa-insta"></i></a>
+            </div>
+  </div>
+</section>
+
+    <section class="about-section">
+        <div class="about-container">
+            <div class="about-image">
+                <div class="image-frame">
+                    <img src="assets/NKcB4Qux7Cs.jpg" alt="Мастер по наращиванию ресниц">
+                </div>
+                <div class="decorative-elements">
+                    <div class="decor-circle-1"></div>
+                    <div class="decor-circle-2"></div>
+                    <div class="decor-flower"></div>
+                </div>
+            </div>
+            
+            <div id="about" class="about-content">
+                <h2 class="section-title">О cебе</h2>
+                <h3 class="section-subtitle">Профессиональный мастер по наращиванию ресниц</h3>
+                
+                
+                <div class="about-text">
+                    <p>Добро пожаловать в мой уютный салон! Меня зовут София, и я профессиональный мастер по наращиванию ресниц с 5-летним опытом работы.</p>
+                    
+                    <p class="highlight-text">Я создаю красивые, естественные и выразительные взгляды, подчеркивая индивидуальность каждой клиентки. Моя цель - не просто нарастить ресницы, а создать идеальный образ, который будет радовать вас каждый день.</p>
+                    
+                    <p>Я постоянно совершенствую свои навыки, посещая мастер-классы и обучающие курсы у ведущих специалистов индустрии красоты. В работе использую только качественные гипоаллергенные материалы премиум-класса.</p>
+                    
+                    <div class="about-features">
+                        <div class="feature-item">
+                            <i class="fas fa-certificate"></i>
+                            <span>Дипломированный специалист</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-heart"></i>
+                            <span>Индивидуальный подход</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-award"></i>
+                            <span>Более 1000 довольных клиентов</span>
+                        </div>
+                    </div>
+                    
+                   
+        </div>
+    </section>
+ <!-- <section class="about-card" id="about">
+  <div class="about-card-bg">
+    <img src="Group.png" alt="София">
+  </div>
+  <div class="about-card-content">
+    <h2>О себе</h2>
+    <ul>
+      <li>Меня зовут София</li>
+      <li>Работаю в сфере наращивания ресниц более 5 лет</li>
+      <li>Делаю разные техники: ресницы, классика, объёмы, украшенные эффекты</li>
+      <li>Я мастер-преподаватель</li>
+      <li>Прошла обучение у ведущих мастеров</li>
+      <li>Сертифицирована более 10 обучений</li>
+    </ul>
+  </div>
+</section> -->
+      <!-- HTML -->
+<section id="gallery" class="gallery">
+  <h3>Портфолио</h3>
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="./assets/prices/price-1.jpg" alt="Наращенные ресницы пример 1" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/prices/price-2.jpg" alt="Наращенные ресницы пример 2" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/prices/price-3.jpg" alt="Наращенные ресницы пример 3" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/prices/price-4.jpg" alt="Наращенные ресницы пример 4" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/prices/price-5.jpg" alt="Наращенные ресницы пример 5" />
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+            <div class="section" id="about-lashes">
+        <div class="container">
+          <div class="info-grid">
+            <div class="info-block info-block--right">
+              <div class="info-text">
+                <p>Добро пожаловать в мир роскошных ресниц!</p>
+              </div>
+              <div class="info-img">
+                <img src="./assets/sticker4.webp" alt="Эмодзи приветствия" width="80" height="80" />
+              </div>
+            </div>
+
+            <div class="info-block">
+              <p>
+                Наращивание ресниц — это удобство, красота и уверенность каждый день. Забудьте о
+                туши и наслаждайтесь выразительным взглядом 24/7.
+              </p>
+            </div>
+
+            <div class="info-block info-block--right">
+              <div class="info-text">
+                <p>Как ухаживать за наращенными ресницами?</p>
+              </div>
+              <div class="info-img">
+                <img src="./assets/sticker5.webp" alt="Эмодзи девушки" width="80" height="80" />
+              </div>
+            </div>
+
+            <div class="info-block">
+              <ul class="care-list">
+                <li>Не мочите ресницы первые 24 часа после процедуры.</li>
+                <li>Избегайте масляных средств.</li>
+                <li>Расчесывайте ресницы щеточкой каждый день.</li>
+                <li>Приходите на коррекцию каждые 2-3 недели.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="services" id="service">
+            <h2>Услуги</h2>
+            <div class="service-list">
+              <div class="service-card">
+                <div class="service-info">
+                  <div class="service-img">
+                    <img
+                      src="./assets/prices/price-1.jpg"
+                      alt="Классическое наращивание"
+                      width="64"
+                      height="64"
+                    />
+                  </div>
+                  <div>
+                    <h3>Классическое наращивание</h3>
+                    <p>2 ч.</p>
+                  </div>
+                </div>
+                <div class="service-price">1 700₽</div>
+              </div>
+
+              <div class="service-card">
+                <div class="service-info">
+                  <div class="service-img">
+                    <img
+                      src="./assets/prices/price-2.jpg"
+                      alt="Мокрый эффект"
+                      width="64"
+                      height="64"
+                    />
+                  </div>
+                  <div>
+                    <h3>Мокрый эффект</h3>
+                    <p>2,5 ч.</p>
+                  </div>
+                </div>
+                <div class="service-price">1 900₽</div>
+              </div>
+
+              <div class="service-card">
+                <div class="service-info">
+                  <div class="service-img">
+                    <img
+                      src="./assets/prices/price-3.jpg"
+                      alt="Объем 1,5D"
+                      width="64"
+                      height="64"
+                    />
+                  </div>
+                  <div>
+                    <h3>Объем 1,5D</h3>
+                    <p>2,5 ч.</p>
+                  </div>
+                </div>
+                <div class="service-price">2 100₽</div>
+              </div>
+
+              <div class="service-card">
+                <div class="service-info">
+                  <div class="service-img">
+                    <img
+                      src="./assets/prices/price-4.jpg"
+                      alt="Объем 2,5Д"
+                      width="64"
+                      height="64"
+                    />
+                  </div>
+                  <div>
+                    <h3>Объем 2,5Д</h3>
+                    <p>2,5 ч.</p>
+                  </div>
+                </div>
+                <div class="service-price">2 300₽</div>
+              </div>
+
+              <div class="service-card">
+                <div class="service-info">
+                  <div class="service-img">
+                    <img
+                      src="./assets/prices/price-5.jpg"
+                      alt="Объем 2D"
+                      width="64"
+                      height="64"
+                    />
+                  </div>
+                  <div>
+                    <h3>Объем 2D</h3>
+                    <p>2,5 ч.</p>
+                  </div>
+                </div>
+                <div class="service-price">2 500₽</div>
+              </div>
+
+              <div class="service-card">
+                <div class="service-info">
+                  <div class="service-img">
+                    <img
+                      src="./assets/prices/price-6.jpg"
+                      alt="Объем 4D"
+                      width="64"
+                      height="64"
+                    />
+                  </div>
+                  <div>
+                    <h3>Объем 4D</h3>
+                    <p>2,5 ч.</p>
+                  </div>
+                </div>
+                <div class="service-price">2 700₽</div>
+              </div>
+
+              <div class="service-card">
+                <div class="service-info">
+                  <div class="service-img">
+                    <img
+                      src="./assets/prices/price-7.jpg"
+                      alt="Объем 3D"
+                      width="64"
+                      height="64"
+                    />
+                  </div>
+                  <div>
+                    <h3>Объем 3D</h3>
+                    <p>2,5 ч.</p>
+                  </div>
+                </div>
+                <div class="service-price">2 900₽</div>
+              </div>
+
+              <div class="service-card">
+                <div class="service-info">
+                  <div class="service-img">
+                    <img
+                      src="./assets/prices/price-8.jpg"
+                      alt="Объем 4D"
+                      width="64"
+                      height="64"
+                    />
+                  </div>
+                  <div>
+                    <h3>Led-наращивание</h3>
+                    <p>2,5 ч.</p>
+                  </div>
+                </div>
+                <div class="service-price">3 100₽</div>
+              </div>
+
+              <div class="service-action">
+                <a
+                  href="https://dikidi.net/851072"
+                  target="_blank"
+                  class="book-btn"
+                  >Записаться</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+   <section class="lash-volume-section" id="lashes">
+        <div class="container">
+          <div class="volume-content">
+            <h2>Почему объем ресниц бывает разными и в чем отличие</h2>
+  <p>
+ <p><strong> Объём наращивания ресниц</strong> — это техника, определяющая количество искусственных ресниц, прикрепляемых к одной натуральной. Разные объёмы создают разный эффект: от естественного до максимально выразительного.
+</p>
+<p><strong>Основные отличия объемов:</strong>
+<p><strong>1D/Classic</strong> — классическое наращивание (1:1): искусственная ресница крепится к одной натуральной для создания естественного эффекта, подчёркивающего природную красоту.</p>
+<p><strong>2D–4D</strong> — объёмное наращивание с использованием 2–4 ресниц на одну натуральную, что создаёт более выразительный и насыщенный взгляд.</p>
+<p><strong>5D–6D</strong> — «Голливудский» объём: используется 5–6 ультратонких ресниц для максимальной пышности и густоты, придающей взгляду эффектный и роскошный вид.</p>
+            <ul class="volume-list">
+              <li class="volume-list-item">
+                <div class="volume-text">
+                  <span class="volume-type">1D</span> 
+                  <!-- — к каждой
+                  натуральной реснице крепится одна искусственная. Естественный
+                  эффект, подчеркивающий природную красоту. -->
+                </div>
+                <div class="volume-image">
+                  <img src="./assets/r/classic.png" alt="Classic наращивание" />
+                </div>
+              </li>
+              <li class="volume-list-item">
+                <div class="volume-text">
+                  <span class="volume-type">2D</span> 
+                  <!-- — 2 искусственные ресницы
+                  на 1 натуральную. Более выразительный эффект. -->
+                </div>
+                <div class="volume-image">
+                  <img src="./assets/r/2d.png" alt="2D наращивание" />
+                </div>
+              </li>
+              <li class="volume-list-item">
+                <div class="volume-text">
+                  <span class="volume-type">3D</span>
+                   <!-- — 3 искусственные ресницы
+                  на 1 натуральную. Еще больше объема. -->
+                </div>
+                <div class="volume-image">
+                  <img src="./assets/r/3d.png" alt="3D наращивание" />
+                </div>
+              </li>
+              <li class="volume-list-item">
+                <div class="volume-text">
+                  <span class="volume-type">4D</span> 
+                  <!-- — 4 искусственные ресницы
+                  на 1 натуральную. Значительный объем (4D-6D) — эффектный
+                  взгляд. -->
+                </div>
+                <div class="volume-image">
+                  <img src="./assets/r/4d.png" alt="4D наращивание" />
+                </div>
+              </li>
+              <li class="volume-list-item">
+                <div class="volume-text">
+                  <span class="volume-type">5D</span> 
+                  <!-- — 5 искусственных ресниц
+                  на 1 натуральную. -->
+                </div>
+                <div class="volume-image">
+                  <img src="./assets/r/5d.png" alt="5D наращивание" />
+                </div>
+              </li>
+              <li class="volume-list-item">
+                <div class="volume-text">
+                  <span class="volume-type">6D</span>
+                   <!-- — "Голливудский объем"
+                  (5D-6D) — максимальная плотность и пышность. Используются
+                  ультратонкие ресницы, создающие роскошный вид. -->
+                </div>
+                <div class="volume-image">
+                  <img src="./assets/r/6d.png" alt="6D наращивание" />
+                </div>
+              </li>
+            </ul>
+            <div class="volume-details">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Курс 1 -->
+ 
+
+  <div class="services" id="courses">
+        <div class="container">
+            <div class="section-title">
+                <h2>Курсы</h2>
+            </div>
+            <div class="course-cards">
+                <div class="course-card">
+                    <div class="course-header">
+                        <h3>Базовый курс</h3>
+                        <p>Для начинающих</p>
+                    </div>
+                    <div class="course-body">
+                        <p>Идеальный старт для тех, кто хочет освоить профессию мастера по наращиванию ресниц с нуля.</p>
+                        <ul class="course-features">
+                            <li><i class="fas fa-check"></i> Теория: материалы, инструменты</li>
+                            <li><i class="fas fa-check"></i> Классическое наращивание</li>
+                            <li><i class="fas fa-check"></i> Объемы 2D-3D</li>
+                            <li><i class="fas fa-check"></i> Коррекция и снятие</li>
+                            <li><i class="fas fa-check"></i> Работа с клиентом</li>
+                            <li><i class="fas fa-check"></i> Практика на моделях</li>
+                        </ul>
+                        <div class="course-price">18 000₽.</div>
+                        <div class="course-buttons">
+                            <!-- <a href="#" class="btn btn-outline">Подробнее</a> -->
+                            <a href="#course-app" class="btn open-modal">Записаться</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="course-card">
+                    <div class="course-header">
+                        <h3>Продвинутый курс</h3>
+                        <p>Для мастеров</p>
+                    </div>
+                    <div class="course-body">
+                        <p>Для действующих мастеров, которые хотят повысить квалификацию и освоить новые техники.</p>
+                        <ul class="course-features">
+                            <li><i class="fas fa-check"></i> Объемы 4D-7D</li>
+                            <li><i class="fas fa-check"></i> Лисий эффект</li>
+                            <li><i class="fas fa-check"></i> Ламинирование ресниц</li>
+                            <li><i class="fas fa-check"></i> Коррекция сложных случаев</li>
+                            <li><i class="fas fa-check"></i> Работа с проблемными ресницами</li>
+                            <li><i class="fas fa-check"></i> Бизнес-модель и продвижение</li>
+                        </ul>
+                        <div class="course-price">25 000₽</div>
+                        <div class="course-buttons">
+                            <!-- <a href="#" class="btn btn-outline">Подробнее</a> -->
+                            <a href="#course-app" class="btn open-modal">Записаться</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Преимущества курса -->
+    <section class="course-benefits" id="prem">
+        <div class="container">
+            <div class="section-title">
+                <h2>Преимущества курса</h2>
+            </div>
+            <div class="benefits-container">
+                <div class="benefit-item">
+                    <i class="fas fa-user-graduate"></i>
+                    <h3>Научитесь сами</h3>
+                    <p>Освойте востребованную профессию и начните зарабатывать</p>
+                </div>
+                <div class="benefit-item">
+                    <i class="fas fa-book"></i>
+                    <h3>Изучите</h3>
+                    <p>Все техники наращивания от классики до мегаобъемов</p>
+                </div>
+                <div class="benefit-item">
+                    <i class="fas fa-tools"></i>
+                    <h3>Овладеете</h3>
+                    <p>Работой с профессиональными материалами и инструментами</p>
+                </div>
+                <div class="benefit-item">
+                    <i class="fas fa-certificate"></i>
+                    <h3>Получите</h3>
+                    <p>Сертификат международного образца и поддержку наставника</p>
+                </div>
+            </div>
+        </div>
+    </section>
+     <section class="testimonials" id="otziv">
+  <div class="container">
+    <div class="section-title">
+      <h2>Отзывы</h2>
+    </div>
+    <div class="testimonial-cards">
+      <div class="testimonial-card">
+        <div class="testimonial-header">
+          <div class="testimonial-avatar">А</div>
+          <div class="testimonial-name">
+            <h4>Анна</h4>
+            <div class="testimonial-stars">★★★★★</div>
+          </div>
+        </div>
+        <div class="testimonial-content">
+          София - настоящий профессионал! Делала у нее объем 3D - результат превзошел все ожидания. Ресницы легкие, глаза выглядят потрясающе. Очень внимательный мастер, все объяснила, рассказала про уход. Буду рекомендовать всем!
+        </div>
+      </div>
+      <div class="testimonial-card">
+        <div class="testimonial-header">
+          <div class="testimonial-avatar">Е</div>
+          <div class="testimonial-name">
+            <h4>Екатерина</h4>
+            <div class="testimonial-stars">★★★★★</div>
+          </div>
+        </div>
+        <div class="testimonial-content">
+         Прошла базовый курс у Софии. Очень довольна! Обучение построено логично, много практики, все материалы предоставили. После курса сразу начала принимать клиентов. София до сих пор консультирует по сложным вопросам. Спасибо за профессионализм!
+        </div>
+      </div>
+      <div class="testimonial-cards">
+      <div class="testimonial-card">
+        <div class="testimonial-header">
+          <div class="testimonial-avatar">А</div>
+          <div class="testimonial-name">
+            <h4>Анна</h4>
+            <div class="testimonial-stars">★★★★★</div>
+          </div>
+        </div>
+        <div class="testimonial-content">
+          Делаю наращивание только у Софии уже больше года. Всегда идеальный результат! Ресницы держатся 3-4 недели, не доставляют дискомфорта. Мастер подбирает оптимальный объем и изгиб под форму глаз. Очень комфортная атмосфера в студии!
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</section>
+<section class="contact" id="contact">
+  <div class="container">
+    <div class="section-title">
+      <h2>Контакты</h2>
+    </div>
+    <div class="contact-wrapper">
+      <div class="contact-info">
+        <h3>Свяжитесь с нами</h3>
+        <div class="contact-details">
+          <p><i class="fas fa-map-marker-alt"></i> г. Обнинск, ул. Комарова, д.1</p>
+          <p><i class="fas fa-phone"></i> +7 (900) 123-45-67</p>
+          <p><i class="fas fa-envelope"></i> info@lashluxe.ru</p>
+          <p><i class="fas fa-clock"></i> Пн–Пт: 10:00–20:00, Сб–Вс: 11:00–18:00</p>
+        </div>
+        <div class="sicons">
+          <a href="https://t.me/lashmaster3"><i class="fab fa-telegram"></i></a>
+          <a href="https://vk.com/id749276177"><i class="fab fa-vk"></i></a>
+          <a href="https://www.instagram.com/lash_sofiya_obninsk?igsh=MTlya2R5Y2p3c3JzdQ=="><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+
+     <div class="map-container" style="max-width: 600px; margin: 0 auto;">
+  <iframe src="https://yandex.ru/map-widget/v1/?ll=36.594379%2C55.115942&z=17&text=%D0%B3.%20%D0%9E%D0%B1%D0%BD%D0%B8%D0%BD%D1%81%D0%BA%2C%20%D1%83%D0%BB.%20%D0%9A%D0%BE%D0%BC%D0%B0%D1%80%D0%BE%D0%B2%D0%B0%2C%201"
+    width="100%" height="400" frameborder="0"
+    style="border:0;" allowfullscreen>
+  </iframe>
+</div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="footer-columns desktop-layout">
+    <div class="footer-column">
+      <h4>О LASH LUXE</h4>
+      <ul>
+        <li><a href="#about">О мастере</a></li>
+        <li><a href="#gallery">Галерея работ</a></li>
+        <li><a href="#otziv">Отзывы </a></li>
+      </ul>
+    </div>
+
+    <div class="footer-column">
+      <h4>Курсы</h4>
+      <ul>
+        <li><a href="#courses">Базовый курс</a></li>
+        <li><a href="#courses  ">Продвинутый курс</a></li>
+        <li><a href="#prem">Преимущества</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-column">
+      <h4>О услугах</h4>
+      <ul>
+        <li><a href="#service">Услуги</a></li>
+        <li><a href="#otziv">Отзывы</a></li>
+        <li><a href="#about-lashes">Как ухаживать за ресницами</a></li>
+        <li><a href="#lashes">О объеме ресниц</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-column no-toggle">
+      <h4>СОЦСЕТИ</h4>
+      <div class="siconss">
+              <a href="https://t.me/lashmaster3"><i class="fab fa-telegra"></i></a>
+              <!-- <a href="#"><i class="fab fa-whatsap"></i></a> -->
+              <a href="https://vk.com/id749276177"><i class="fab fa-v"></i></a>
+              <a href="https://www.instagram.com/lash_sofiya_obninsk?igsh=MTlya2R5Y2p3c3JzdQ=="><i class="fab fa-instagra"></i></a>
+            </div>
+    </div>
+
+    <div class="footer-column no-toggle">
+      <h4>КОНТАКТЫ</h4>
+      <ul>
+        <li><a href="tel:+79005808463">+7 (900) 600-64-62</a></li>
+        <li><a href="tel:+79005808463">Мы находимся: г. Обнинск, ул. Комарова д.1</a></li>
+        <li><a href="https://yandex.ru/maps/?text=г. Обнинск, ул. Комарова 1" target="_blank">Показать на карте</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>&copy; 2024–2025 Все права защищены</p>
+    <p>
+      <a href="#">Соглашение на обработку персональных данных</a> |
+      <a href="#">Лицензионный договор-оферта</a>
+    </p>
+  </div>
+  <!-- Модальные окна -->
+    <div class="modal" id="appointment-modal">
+      <div class="modal-content">
+        <span class="close-modal"></span>
+        <h2>Запись на процедуру</h2>
+        <form id="appointment-form">
+          <div class="form-group">
+            <label for="name">Ваше имя</label>
+            <input type="text" id="name" class="form-control" required />
+          </div>
+          <div class="form-group">
+            <label for="phone">Телефон</label>
+            <input type="tel" id="phone" class="form-control" required />
+          </div>
+          <div class="form-group">
+            <label for="service">Услуга</label>
+            <select id="service" class="form-control" required>
+              <option value="">Выберите услугу</option>
+              <option value="classic">Классическое наращивание</option>
+              <option value="fox">Лисий эффект</option>
+              <option value="1d">1D объём</option>
+              <option value="2d">2D объём</option>
+              <option value="3d">3D объём</option>
+              <option value="4d">4D объём</option>
+              <option value="5d">5D объём</option>
+              <option value="6d">6D объём</option>
+              <option value="7d">7D объём</option>
+              <option value="laminating">Ламинирование ресниц</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="date">Желаемая дата</label>
+            <input type="date" id="date" class="form-control" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Комментарий (необязательно)</label>
+            <textarea id="message" class="form-control"></textarea>
+          </div>
+          <button type="submit" class="btn">Отправить заявку</button>
+        </form>
+      </div>
+    </div>
+
+    <div class="modal" id="course-modal">
+      <div class="modal-content">
+        <span class="close-modal"></span>
+        <h2>Запись на курс</h2>
+       <div class="pyp"> <p>Заполните короткую форму и я свяжусь с вами, для обсуждения деталей курса.</p>
+        <form id="course-form">
+          <div class="form-group">
+            <label for="course-name">Ваше имя</label>
+            <input type="text" id="course-name" class="form-control" required />
+          </div>
+          <div class="form-group">
+            <label for="course-phone">Телефон</label>
+            <input type="tel" id="course-phone" class="form-control" required />
+          </div>
+          <div class="form-group">
+            <label for="course-type">Курс</label>
+            <select id="course-type" class="form-control" required>
+              <option value="">Выберите курс</option>
+              <option value="basic">Базовый курс</option>
+              <option value="advanced">Продвинутый курс</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="course-message">Комментарий (необязательно)</label>
+            <textarea id="course-message" class="form-control"></textarea>
+          </div>
+          <button type="submit" class="btn">Оставить заявку</button>
+        </form>
+      </div>
+    </div>
+</div>
+    <div class="modal" id="success-modal">
+      <div class="modal-content">
+        <span class="close-modal"></span>
+        <h2>Спасибо!</h2>
+        <p style="text-align: center; font-size: 18px; margin: 30px 0">
+         <div class="pyyp"> Ваша заявка отправлена. Мы свяжемся с вами в ближайшее время.
+        </p>
+        <div style="text-align: center">
+          <button class="btn close-modal">Закрыть</button>
+        </div>
+      </div>
+    </div></div>
+
+</footer>
+    </main>
+    
+    <script>
+      function toggleMenu() {
+        const menu = document.getElementById("mobile-menu");
+        menu.classList.toggle("hidden");
+      }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+   const swiper = new Swiper(".swiper", {
+  loop: true,
+  centeredSlides: false,
+  watchOverflow: true,
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+  slidesPerView: 1,
+  spaceBetween: 10,
+  breakpoints: {
+    576: {
+      slidesPerView: 2,
+      spaceBetween: 15,
+    },
+    768: {
+      slidesPerView: 2,
+      spaceBetween: 20,
+    },
+    992: {
+      slidesPerView: 3,
+      spaceBetween: 20,
+    },
+    1200: {
+      slidesPerView: 4,
+      spaceBetween: 24,
+    },
+  },
+});
+    </script>
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const path = window.location.pathname.split("/").pop();
+    const hash = window.location.hash;
+
+    document.querySelectorAll(".desktop-menu a, .mobile-menu a").forEach(link => {
+      const linkHref = link.getAttribute("href");
+
+      // Если на главной
+      if ((path === "" || path === "index.html") && linkHref === "index.html") {
+        link.classList.add("active");
+      }
+
+      // Если якорь
+      if (hash && linkHref === hash) {
+        link.classList.add("active");
+      }
+    });
+  });
+</script>
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const navLinks = document.querySelectorAll(".desktop-menu a, .mobile-menu a");
+
+    navLinks.forEach(link => {
+      link.addEventListener("click", () => {
+        navLinks.forEach(l => l.classList.remove("active"));
+        link.classList.add("active");
+      });
+    });
+  });
+</script>
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const sections = document.querySelectorAll("section[id]");
+    const navLinks = document.querySelectorAll(".desktop-menu a, .mobile-menu a");
+
+    function activateLink() {
+      let scrollY = window.pageYOffset;
+
+      sections.forEach(section => {
+        const sectionTop = section.offsetTop - 100; // отступ сверху
+        const sectionHeight = section.offsetHeight;
+        const sectionId = section.getAttribute("id");
+
+        if (scrollY >= sectionTop && scrollY < sectionTop + sectionHeight) {
+          navLinks.forEach(link => {
+            link.classList.remove("active");
+            if (link.getAttribute("href") === `#${sectionId}`) {
+              link.classList.add("active");
+            }
+          });
+        }
+      });
+    }
+
+    window.addEventListener("scroll", activateLink);
+  });
+</script>
+<!-- <script>
+  const toggles = document.querySelectorAll('.footer-toggle');
+
+  toggles.forEach(btn => {
+    btn.addEventListener('click', () => {
+      const isExpanded = btn.getAttribute('aria-expanded') === 'true';
+
+      // Закрыть все
+      toggles.forEach(b => {
+        b.setAttribute('aria-expanded', 'false');
+        b.nextElementSibling.style.maxHeight = null;
+      });
+
+      // Открыть текущую
+      if (!isExpanded) {
+        btn.setAttribute('aria-expanded', 'true');
+        const panel = btn.nextElementSibling;
+        panel.style.maxHeight = panel.scrollHeight + 'px';
+      }
+    });
+  });
+</script> -->
+<script>
+  document.querySelectorAll('.footer-column h4').forEach(header => {
+    header.addEventListener('click', () => {
+      const parent = header.parentElement;
+      parent.classList.toggle('active');
+    });
+  });
+  // Модальные окна
+      const appointmentModal = document.getElementById("appointment-modal");
+      const courseModal = document.getElementById("course-modal");
+      const successModal = document.getElementById("success-modal");
+      const openModalBtns = document.querySelectorAll(".open-modal");
+      const closeModalBtns = document.querySelectorAll(".close-modal");
+
+      openModalBtns.forEach((btn) => {
+        btn.addEventListener("click", (e) => {
+          e.preventDefault();
+
+          if (btn.getAttribute("href") === "#appointment") {
+            appointmentModal.classList.add("show");
+          } else if (btn.getAttribute("href") === "#course-app") {
+            courseModal.classList.add("show");
+          }
+
+          document.body.style.overflow = "hidden";
+        });
+      });
+
+      closeModalBtns.forEach((btn) => {
+        btn.addEventListener("click", () => {
+          appointmentModal.classList.remove("show");
+          courseModal.classList.remove("show");
+          successModal.classList.remove("show");
+          document.body.style.overflow = "auto";
+        });
+      });
+
+      // Закрытие модального окна при клике вне его
+      window.addEventListener("click", (e) => {
+        if (e.target === appointmentModal) {
+          appointmentModal.classList.remove("show");
+          document.body.style.overflow = "auto";
+        }
+        if (e.target === courseModal) {
+          courseModal.classList.remove("show");
+          document.body.style.overflow = "auto";
+        }
+        if (e.target === successModal) {
+          successModal.classList.remove("show");
+          document.body.style.overflow = "auto";
+        }
+      });
+
+      // Обработка форм
+      document
+        .getElementById("appointment-form")
+        .addEventListener("submit", (e) => {
+          e.preventDefault();
+          appointmentModal.classList.remove("show");
+          successModal.classList.add("show");
+          // Здесь обычно код отправки формы
+        });
+
+      document.getElementById("course-form").addEventListener("submit", (e) => {
+        e.preventDefault();
+        courseModal.classList.remove("show");
+        successModal.classList.add("show");
+        // Здесь обычно код отправки формы
+      });
+
+</script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const animatedElements = document.querySelectorAll(
+      '.feature, .about-card, .service-card, .course-card, .testimonial-card, .portfolio-card, .info-card, header, footer, .hero, .course-info, section'
+    );
+
+    // Функция для запуска анимации при прокрутке
+    function animateOnScroll() {
+      const triggerBottom = window.innerHeight * 0.9;
+
+      animatedElements.forEach((el) => {
+        const elementTop = el.getBoundingClientRect().top;
+
+        if (elementTop < triggerBottom) {
+          el.classList.add("animate-in");
+        }
+      });
+    }
+
+    // Устанавливаем начальные стили
+    animatedElements.forEach((el) => {
+      el.classList.add("will-animate");
+    });
+
+    // Явно показываем .service-action и не трогаем её
+    const actionButtons = document.querySelectorAll(".service-action");
+    actionButtons.forEach((btn) => {
+      btn.style.opacity = "1";
+      btn.style.transform = "none";
+    });
+
+    window.addEventListener("scroll", animateOnScroll);
+    window.addEventListener("load", animateOnScroll);
+  });
+</script>
+<script>
+  function toggleMenu() {
+    const menu = document.getElementById('mobile-menu');
+    menu.classList.toggle('show');
+    menu.classList.toggle('hidden');
+  }
+</script>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const heroImage = document.querySelector('.hero-image');
+
+    window.addEventListener('scroll', () => {
+      const scrolled = window.scrollY;
+      const maxClip = window.innerHeight;
+
+      heroImage.style.clipPath = `inset(0 0 ${Math.min(scrolled, maxClip)}px 0);`
+    });
+  });
+</script>
+  </body>
+</html>

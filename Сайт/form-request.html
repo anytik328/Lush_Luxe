@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Подать заявку на курс | Lash Luxe</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="nav">
+        <div class="mobile-menu-toggle">
+          <button class="icon-button" onclick="toggleMenu()">☰</button>
+        </div>
+        <div id="mobile-menu" class="mobile-menu hidden">
+          <ul>
+            <li><a href="./index.html">Главная</a></li>
+            <li><a href="./index.html#about">О себе</a></li>
+            <li><a href="./index.html#service">Услуги</a></li>
+            <li><a href="./index.html#courses">Курсы</a></li>
+            <li><a href="./index.html#contacts">Контакты</a></li>
+          </ul>
+        </div>
+        <ul class="desktop-menu">
+          <li><a href="./index.html">Главная</a></li>
+          <li><a href="./index.html#about">О себе</a></li>
+          <li><a href="./index.html#service">Услуги</a></li>
+          <li><a href="./index.html#courses">Курсы</a></li>
+          <li><a href="./index.html#contacts">Контакты</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="form-page">
+      <div class="container">
+        <div class="form-wrapper">
+          <h1>Подать заявку на курс</h1>
+          <p class="form-subtitle">
+            Заполните короткую форму и я свяжусь с вами для обсуждения деталей курса.
+          </p>
+
+          <form id="applicationForm" class="application-form" onsubmit="handleSubmit(event)">
+            <div class="form-group">
+              <label for="name">Ваше Имя</label>
+              <input type="text" id="name" name="name" required />
+            </div>
+
+            <div class="form-group">
+              <label for="phone">Телефон</label>
+              <input type="tel" id="phone" name="phone" required />
+            </div>
+
+            <div class="form-group">
+              <label for="comment">Комментарий (необязательно)</label>
+              <textarea id="comment" name="comment" rows="4"></textarea>
+            </div>
+
+            <button type="submit" class="submit-btn">Оставить заявку</button>
+          </form>
+        </div>
+      </div>
+    </main>
+    <div id="customAlert" class="custom-alert hidden">
+      <div class="alert-content">
+        <h2>Спасибо! Ваша заявка отправлена</h2>
+        <p>В течение 24 часов мы с вами свяжемся. Ожидайте звонка или сообщения в мессенджере.</p>
+        <button onclick="hideAlert()" class="alert-btn">Закрыть</button>
+      </div>
+    </div>
+
+    <script>
+      function showAlert() {
+        document.getElementById('customAlert').classList.remove('hidden');
+      }
+
+      function hideAlert() {
+        document.getElementById('customAlert').classList.add('hidden');
+      }
+
+      function handleSubmit(event) {
+        event.preventDefault();
+        const formData = new FormData(event.target);
+        const data = Object.fromEntries(formData);
+
+        showAlert();
+        event.target.reset();
+      }
+    </script>
+  </body>
+</html>
